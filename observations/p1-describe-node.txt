@@ -1,0 +1,89 @@
+Name:               minikube
+Roles:              control-plane
+Labels:             beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/os=linux
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=minikube
+                    kubernetes.io/os=linux
+                    minikube.k8s.io/commit=7a9f6a841470a207de8cf4bafcccee0969d8ba10
+                    minikube.k8s.io/name=minikube
+                    minikube.k8s.io/primary=true
+                    minikube.k8s.io/updated_at=2026_11_08T20_57_17_0700
+                    minikube.k8s.io/version=v1.39.0
+                    node-role.kubernetes.io/control-plane=
+                    node.kubernetes.io/exclude-from-external-load-balancers=
+Annotations:        node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Sun, 08 Nov 2026 20:57:13 +0100
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  minikube
+  AcquireTime:     <unset>
+  RenewTime:       Tue, 10 Nov 2026 21:58:05 +0100
+Conditions:
+  Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message
+  ----             ------  -----------------                 ------------------                ------                       -------
+  MemoryPressure   False   Tue, 10 Nov 2026 21:57:24 +0100   Sun, 08 Nov 2026 20:57:12 +0100   KubeletHasSufficientMemory   kubelet has sufficient memory available
+  DiskPressure     False   Tue, 10 Nov 2026 21:57:24 +0100   Sun, 08 Nov 2026 20:57:12 +0100   KubeletHasNoDiskPressure     kubelet has no disk pressure
+  PIDPressure      False   Tue, 10 Nov 2026 21:57:24 +0100   Sun, 08 Nov 2026 20:57:12 +0100   KubeletHasSufficientPID      kubelet has sufficient PID available
+  Ready            True    Tue, 10 Nov 2026 21:57:24 +0100   Sun, 08 Nov 2026 20:58:18 +0100   KubeletReady                 kubelet is posting ready status
+Addresses:
+  InternalIP:  192.168.49.2
+  Hostname:    minikube
+Capacity:
+  cpu:                4
+  ephemeral-storage:  243987636224
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             16287084Ki
+  pods:               110
+Allocatable:
+  cpu:                4
+  ephemeral-storage:  243987636224
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             16287084Ki
+  pods:               110
+System Info:
+  Machine ID:                 b7566eefbea02b7ce85821e86a97158b
+  System UUID:                9daa1600-26e4-42ed-9923-d1360204cac9
+  Boot ID:                    3dab2dc8-cdd4-4b9c-9c4c-aa24a9213c7c
+  Kernel Version:             6.1.0-39-amd64
+  OS Image:                   Debian GNU/Linux 12 (bookworm)
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://2.3.4
+  Kubelet Version:            v1.37.0
+PodCIDR:                      10.244.0.0/24
+PodCIDRs:                     10.244.0.0/24
+Non-terminated Pods:          (12 in total)
+  Namespace                   Name                                CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                ------------  ----------  ---------------  -------------  ---
+  kube-system                 coredns-559f6c778d-958r6            100m (2%)     0 (0%)      70Mi (0%)        170Mi (1%)     2d1h
+  kube-system                 etcd-minikube                       100m (2%)     0 (0%)      100Mi (0%)       0 (0%)         2d1h
+  kube-system                 kindnet-fhrnn                       100m (2%)     100m (2%)   50Mi (0%)        50Mi (0%)      2d1h
+  kube-system                 kube-apiserver-minikube             250m (6%)     0 (0%)      0 (0%)           0 (0%)         2d1h
+  kube-system                 kube-controller-manager-minikube    200m (5%)     0 (0%)      0 (0%)           0 (0%)         2d1h
+  kube-system                 kube-proxy-9jmrt                    0 (0%)        0 (0%)      0 (0%)           0 (0%)         2d1h
+  kube-system                 kube-scheduler-minikube             100m (2%)     0 (0%)      0 (0%)           0 (0%)         2d1h
+  kube-system                 storage-provisioner                 0 (0%)        0 (0%)      0 (0%)           0 (0%)         2d1h
+  tp-k8s                      web-647c55d7fd-cznmn                50m (1%)      250m (6%)   32Mi (0%)        128Mi (0%)     16m
+  tp-k8s                      web-647c55d7fd-pg6bn                50m (1%)      250m (6%)   32Mi (0%)        128Mi (0%)     16m
+  tp-k8s                      web-647c55d7fd-r4q77                50m (1%)      250m (6%)   32Mi (0%)        128Mi (0%)     16m
+  tp-k8s                      web-647c55d7fd-vzx6q                50m (1%)      250m (6%)   32Mi (0%)        128Mi (0%)     16m
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests     Limits
+  --------           --------     ------
+  cpu                1050m (26%)  1100m (27%)
+  memory             348Mi (2%)   732Mi (4%)
+  ephemeral-storage  0 (0%)       0 (0%)
+  hugepages-1Gi      0 (0%)       0 (0%)
+  hugepages-2Mi      0 (0%)       0 (0%)
+Events:
+  Type     Reason          Age   From             Message
+  ----     ------          ----  ----             -------
+  Normal   RegisteredNode  20h   node-controller  Node minikube event: Registered Node minikube in Controller
+  Warning  Rebooted        17m   kubelet          Node minikube has been rebooted, boot id: 3dab2dc8-cdd4-4b9c-9c4c-aa24a9213c7c
+  Normal   RegisteredNode  17m   node-controller  Node minikube event: Registered Node minikube in Controller

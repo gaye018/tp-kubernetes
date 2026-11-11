@@ -1,0 +1,255 @@
+NAMESPACE     LAST SEEN   TYPE      REASON                              OBJECT                                 MESSAGE
+default       20h         Normal    Starting                            node/minikube                          
+default       20h         Normal    RegisteredNode                      node/minikube                          Node minikube event: Registered Node minikube in Controller
+kube-system   20h         Normal    Pulled                              pod/kube-proxy-9jmrt                   Container image "registry.k8s.io/kube-proxy:v1.37.0" already present on machine and can be accessed by the pod
+kube-system   20h         Normal    Pulled                              pod/etcd-minikube                      Container image "registry.k8s.io/etcd:3.7.0-0" already present on machine and can be accessed by the pod
+default       20h         Normal    NodeHasSufficientPID                node/minikube                          Node minikube status is now: NodeHasSufficientPID
+default       20h         Normal    NodeAllocatableEnforced             node/minikube                          Updated Node Allocatable limit across pods
+default       20h         Warning   Rebooted                            node/minikube                          Node minikube has been rebooted, boot id: c17db15f-e02c-4f45-a119-997df58e323c
+default       20h         Normal    NodeHasSufficientMemory             node/minikube                          Node minikube status is now: NodeHasSufficientMemory
+default       20h         Normal    Starting                            node/minikube                          Starting kubelet.
+tp-k8s        20h         Normal    Pulled                              pod/web-569c7b9764-dk59q               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+kube-system   20h         Normal    Started                             pod/kube-controller-manager-minikube   Container started
+kube-system   20h         Normal    Started                             pod/storage-provisioner                Container started
+kube-system   20h         Normal    Created                             pod/storage-provisioner                Container created
+kube-system   20h         Normal    Pulled                              pod/storage-provisioner                Container image "gcr.io/k8s-minikube/storage-provisioner:v5" already present on machine and can be accessed by the pod
+kube-system   20h         Normal    SandboxChanged                      pod/storage-provisioner                Pod sandbox changed, it will be killed and re-created.
+tp-k8s        20h         Normal    Created                             pod/web-569c7b9764-dk59q               Container created
+tp-k8s        20h         Normal    Started                             pod/web-569c7b9764-dk59q               Container started
+kube-system   20h         Normal    Created                             pod/kube-controller-manager-minikube   Container created
+kube-system   20h         Normal    SandboxChanged                      pod/coredns-559f6c778d-958r6           Pod sandbox changed, it will be killed and re-created.
+kube-system   20h         Normal    Pulled                              pod/coredns-559f6c778d-958r6           Container image "registry.k8s.io/coredns/coredns:v1.14.6" already present on machine and can be accessed by the pod
+kube-system   20h         Normal    Started                             pod/kube-scheduler-minikube            Container started
+kube-system   20h         Normal    Started                             pod/coredns-559f6c778d-958r6           Container started
+kube-system   20h         Normal    Pulled                              pod/kube-controller-manager-minikube   Container image "registry.k8s.io/kube-controller-manager:v1.37.0" already present on machine and can be accessed by the pod
+default       20h         Normal    NodeHasNoDiskPressure               node/minikube                          Node minikube status is now: NodeHasNoDiskPressure
+kube-system   20h         Normal    Created                             pod/kube-scheduler-minikube            Container created
+kube-system   20h         Normal    SandboxChanged                      pod/kube-controller-manager-minikube   Pod sandbox changed, it will be killed and re-created.
+default       20h         Warning   PossibleMemoryBackedVolumesOnDisk   node/minikube                          The tmpfs noswap option is not supported. Memory-backed volumes (e.g. secrets, emptyDirs, etc.) might be swapped to disk and should no longer be considered secure.
+kube-system   20h         Normal    Pulled                              pod/kube-scheduler-minikube            Container image "registry.k8s.io/kube-scheduler:v1.37.0" already present on machine and can be accessed by the pod
+kube-system   20h         Normal    SandboxChanged                      pod/etcd-minikube                      Pod sandbox changed, it will be killed and re-created.
+kube-system   20h         Normal    SandboxChanged                      pod/kube-proxy-9jmrt                   Pod sandbox changed, it will be killed and re-created.
+kube-system   20h         Normal    Created                             pod/etcd-minikube                      Container created
+kube-system   20h         Normal    Started                             pod/etcd-minikube                      Container started
+kube-system   20h         Normal    SandboxChanged                      pod/kube-scheduler-minikube            Pod sandbox changed, it will be killed and re-created.
+tp-k8s        20h         Normal    Started                             pod/web-569c7b9764-vftvw               Container started
+tp-k8s        20h         Normal    Created                             pod/web-569c7b9764-vftvw               Container created
+tp-k8s        20h         Normal    Pulled                              pod/web-569c7b9764-vftvw               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+kube-system   20h         Normal    Started                             pod/kube-apiserver-minikube            Container started
+tp-k8s        20h         Normal    SandboxChanged                      pod/web-569c7b9764-vftvw               Pod sandbox changed, it will be killed and re-created.
+kube-system   20h         Normal    SandboxChanged                      pod/kindnet-fhrnn                      Pod sandbox changed, it will be killed and re-created.
+kube-system   20h         Normal    Pulled                              pod/kindnet-fhrnn                      Container image "docker.io/kindest/kindnetd:v20260820-69b56db7" already present on machine and can be accessed by the pod
+kube-system   20h         Normal    Created                             pod/kindnet-fhrnn                      Container created
+kube-system   20h         Normal    Started                             pod/kindnet-fhrnn                      Container started
+kube-system   20h         Normal    Created                             pod/coredns-559f6c778d-958r6           Container created
+kube-system   20h         Normal    Started                             pod/kube-proxy-9jmrt                   Container started
+kube-system   20h         Normal    Created                             pod/kube-proxy-9jmrt                   Container created
+tp-k8s        20h         Normal    SandboxChanged                      pod/web-569c7b9764-dk59q               Pod sandbox changed, it will be killed and re-created.
+kube-system   20h         Normal    SandboxChanged                      pod/kube-apiserver-minikube            Pod sandbox changed, it will be killed and re-created.
+kube-system   20h         Normal    Pulled                              pod/kube-apiserver-minikube            Container image "registry.k8s.io/kube-apiserver:v1.37.0" already present on machine and can be accessed by the pod
+kube-system   20h         Normal    Created                             pod/kube-apiserver-minikube            Container created
+kube-system   20h         Warning   Unhealthy                           pod/coredns-559f6c778d-958r6           Readiness probe failed: HTTP probe failed with statuscode: 503
+kube-system   20h         Warning   BackOff                             pod/storage-provisioner                Back-off restarting failed container storage-provisioner in pod storage-provisioner_kube-system(b1b5e9bf-35c3-4665-bc46-bb649f7528f6)
+kube-system   20h         Normal    LeaderElection                      endpoints/k8s.io-minikube-hostpath     minikube_ba77eedb-2c07-4b5e-a58b-36a7f6dbe9f2 became leader
+tp-k8s        20h         Normal    Pulled                              pod/web-569c7b9764-r7n7w               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        20h         Normal    Scheduled                           pod/web-569c7b9764-r7n7w               Successfully assigned tp-k8s/web-569c7b9764-r7n7w to minikube
+tp-k8s        20h         Normal    Started                             pod/web-569c7b9764-r7n7w               Container started
+tp-k8s        20h         Normal    Created                             pod/web-569c7b9764-r7n7w               Container created
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-569c7b9764              Created pod: web-569c7b9764-r7n7w
+tp-k8s        20h         Normal    Killing                             pod/web-569c7b9764-dk59q               Stopping container nginx
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-569c7b9764              Created pod: web-569c7b9764-j5445
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-569c7b9764              Created pod: web-569c7b9764-tvm5p
+tp-k8s        20h         Normal    Scheduled                           pod/web-569c7b9764-tvm5p               Successfully assigned tp-k8s/web-569c7b9764-tvm5p to minikube
+tp-k8s        20h         Normal    ScalingReplicaSet                   deployment/web                         Scaled up replica set web-569c7b9764 from 2 to 4
+tp-k8s        20h         Normal    Scheduled                           pod/web-569c7b9764-j5445               Successfully assigned tp-k8s/web-569c7b9764-j5445 to minikube
+tp-k8s        20h         Normal    Started                             pod/web-569c7b9764-tvm5p               Container started
+tp-k8s        20h         Normal    Started                             pod/web-569c7b9764-j5445               Container started
+tp-k8s        20h         Normal    Pulled                              pod/web-569c7b9764-tvm5p               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        20h         Normal    Created                             pod/web-569c7b9764-tvm5p               Container created
+tp-k8s        20h         Normal    Created                             pod/web-569c7b9764-j5445               Container created
+tp-k8s        20h         Normal    Pulled                              pod/web-569c7b9764-j5445               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        20h         Normal    Scheduled                           pod/web-569c7b9764-whqqb               Successfully assigned tp-k8s/web-569c7b9764-whqqb to minikube
+tp-k8s        20h         Normal    SuccessfulDelete                    replicaset/web-569c7b9764              Deleted pod: web-569c7b9764-tvm5p
+tp-k8s        20h         Normal    Killing                             pod/web-569c7b9764-r7n7w               Stopping container nginx
+tp-k8s        20h         Normal    ScalingReplicaSet                   deployment/web                         Scaled up replica set web-569c7b9764 from 1 to 4
+tp-k8s        20h         Normal    Killing                             pod/web-569c7b9764-tvm5p               Stopping container nginx
+tp-k8s        20h         Normal    Scheduled                           pod/web-569c7b9764-gk5lp               Successfully assigned tp-k8s/web-569c7b9764-gk5lp to minikube
+tp-k8s        20h         Normal    SuccessfulDelete                    replicaset/web-569c7b9764              Deleted pod: web-569c7b9764-r7n7w
+tp-k8s        20h         Normal    Scheduled                           pod/web-569c7b9764-vhjd4               Successfully assigned tp-k8s/web-569c7b9764-vhjd4 to minikube
+tp-k8s        20h         Normal    SuccessfulDelete                    replicaset/web-569c7b9764              Deleted pod: web-569c7b9764-j5445
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-569c7b9764              Created pod: web-569c7b9764-gk5lp
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-569c7b9764              Created pod: web-569c7b9764-whqqb
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-569c7b9764              Created pod: web-569c7b9764-vhjd4
+tp-k8s        20h         Normal    Killing                             pod/web-569c7b9764-j5445               Stopping container nginx
+tp-k8s        20h         Normal    ScalingReplicaSet                   deployment/web                         Scaled down replica set web-569c7b9764 from 4 to 1
+tp-k8s        20h         Normal    Pulled                              pod/web-569c7b9764-gk5lp               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        20h         Normal    Started                             pod/web-569c7b9764-whqqb               Container started
+tp-k8s        20h         Normal    Created                             pod/web-569c7b9764-gk5lp               Container created
+tp-k8s        20h         Normal    Created                             pod/web-569c7b9764-vhjd4               Container created
+tp-k8s        20h         Normal    Started                             pod/web-569c7b9764-vhjd4               Container started
+tp-k8s        20h         Normal    Pulled                              pod/web-569c7b9764-whqqb               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        20h         Normal    Created                             pod/web-569c7b9764-whqqb               Container created
+tp-k8s        20h         Normal    Pulled                              pod/web-569c7b9764-vhjd4               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        20h         Normal    Started                             pod/web-569c7b9764-gk5lp               Container started
+tp-k8s        20h         Normal    ScalingReplicaSet                   deployment/web                         Scaled up replica set web-647c55d7fd from 1 to 2
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-647c55d7fd              Created pod: web-647c55d7fd-m8hjg
+tp-k8s        20h         Normal    Created                             pod/web-647c55d7fd-m8hjg               Container created
+tp-k8s        20h         Normal    ScalingReplicaSet                   deployment/web                         Scaled up replica set web-647c55d7fd from 0 to 1
+tp-k8s        20h         Normal    ScalingReplicaSet                   deployment/web                         Scaled down replica set web-569c7b9764 from 4 to 3
+tp-k8s        20h         Normal    Pulled                              pod/web-647c55d7fd-m8hjg               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        20h         Normal    Scheduled                           pod/web-647c55d7fd-m8hjg               Successfully assigned tp-k8s/web-647c55d7fd-m8hjg to minikube
+tp-k8s        20h         Normal    Started                             pod/web-647c55d7fd-m8hjg               Container started
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-647c55d7fd              Created pod: web-647c55d7fd-mj6k5
+tp-k8s        20h         Normal    SuccessfulDelete                    replicaset/web-569c7b9764              Deleted pod: web-569c7b9764-whqqb
+tp-k8s        20h         Normal    Killing                             pod/web-569c7b9764-whqqb               Stopping container nginx
+tp-k8s        20h         Normal    Scheduled                           pod/web-647c55d7fd-mj6k5               Successfully assigned tp-k8s/web-647c55d7fd-mj6k5 to minikube
+tp-k8s        20h         Normal    Pulled                              pod/web-647c55d7fd-mj6k5               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        20h         Normal    Created                             pod/web-647c55d7fd-mj6k5               Container created
+tp-k8s        20h         Normal    Started                             pod/web-647c55d7fd-mj6k5               Container started
+tp-k8s        20h         Normal    Pulled                              pod/web-647c55d7fd-5lhgt               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        20h         Normal    Started                             pod/web-647c55d7fd-5lhgt               Container started
+tp-k8s        20h         Normal    Pulled                              pod/web-647c55d7fd-z5bkm               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        20h         Normal    Created                             pod/web-647c55d7fd-z5bkm               Container created
+tp-k8s        20h         Normal    ScalingReplicaSet                   deployment/web                         Scaled down replica set web-569c7b9764 from 3 to 2
+tp-k8s        20h         Normal    SuccessfulDelete                    replicaset/web-569c7b9764              Deleted pod: web-569c7b9764-vhjd4
+tp-k8s        20h         Normal    SuccessfulDelete                    replicaset/web-569c7b9764              Deleted pod: web-569c7b9764-gk5lp
+tp-k8s        20h         Normal    Scheduled                           pod/web-647c55d7fd-z5bkm               Successfully assigned tp-k8s/web-647c55d7fd-z5bkm to minikube
+tp-k8s        20h         Normal    Created                             pod/web-647c55d7fd-5lhgt               Container created
+tp-k8s        20h         Normal    ScalingReplicaSet                   deployment/web                         Scaled up replica set web-647c55d7fd from 2 to 3
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-647c55d7fd              Created pod: web-647c55d7fd-z5bkm
+tp-k8s        20h         Normal    ScalingReplicaSet                   deployment/web                         (combined from similar events): Scaled down replica set web-647c55d7fd from 1 to 0
+tp-k8s        20h         Normal    Scheduled                           pod/web-647c55d7fd-5lhgt               Successfully assigned tp-k8s/web-647c55d7fd-5lhgt to minikube
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-647c55d7fd              Created pod: web-647c55d7fd-5lhgt
+tp-k8s        20h         Normal    Killing                             pod/web-569c7b9764-gk5lp               Stopping container nginx
+tp-k8s        20h         Normal    Killing                             pod/web-569c7b9764-vhjd4               Stopping container nginx
+tp-k8s        20h         Normal    ScalingReplicaSet                   deployment/web                         Scaled down replica set web-569c7b9764 from 2 to 1
+tp-k8s        20h         Normal    Started                             pod/web-647c55d7fd-z5bkm               Container started
+tp-k8s        20h         Normal    SuccessfulDelete                    replicaset/web-647c55d7fd              Deleted pod: web-647c55d7fd-5lhgt
+tp-k8s        20h         Normal    Killing                             pod/web-569c7b9764-vftvw               Stopping container nginx
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-6fcbcf6856              Created pod: web-6fcbcf6856-bkf5d
+tp-k8s        20h         Normal    SuccessfulDelete                    replicaset/web-569c7b9764              Deleted pod: web-569c7b9764-vftvw
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-6fcbcf6856              Created pod: web-6fcbcf6856-ss746
+tp-k8s        20h         Normal    Scheduled                           pod/web-6fcbcf6856-bkf5d               Successfully assigned tp-k8s/web-6fcbcf6856-bkf5d to minikube
+tp-k8s        20h         Normal    Killing                             pod/web-647c55d7fd-5lhgt               Stopping container nginx
+tp-k8s        20h         Normal    Scheduled                           pod/web-6fcbcf6856-ss746               Successfully assigned tp-k8s/web-6fcbcf6856-ss746 to minikube
+tp-k8s        20h         Normal    Pulling                             pod/web-6fcbcf6856-bkf5d               Pulling image "nginx:alpine"
+tp-k8s        20h         Normal    Pulling                             pod/web-6fcbcf6856-ss746               Pulling image "nginx:alpine"
+tp-k8s        20h         Normal    Pulled                              pod/web-6fcbcf6856-bkf5d               Successfully pulled image "nginx:alpine" in 1m41.185s (1m41.185s including waiting). Image size: 26368486 bytes.
+tp-k8s        20h         Normal    Created                             pod/web-6fcbcf6856-bkf5d               Container created
+tp-k8s        20h         Normal    Started                             pod/web-6fcbcf6856-bkf5d               Container started
+tp-k8s        20h         Normal    Started                             pod/web-6fcbcf6856-ss746               Container started
+tp-k8s        20h         Normal    Pulled                              pod/web-6fcbcf6856-ss746               Successfully pulled image "nginx:alpine" in 1.303s (1m42.394s including waiting). Image size: 26368486 bytes.
+tp-k8s        20h         Normal    Created                             pod/web-6fcbcf6856-ss746               Container created
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-6fcbcf6856              Created pod: web-6fcbcf6856-28pxr
+tp-k8s        20h         Normal    Killing                             pod/web-647c55d7fd-m8hjg               Stopping container nginx
+tp-k8s        20h         Normal    SuccessfulDelete                    replicaset/web-647c55d7fd              Deleted pod: web-647c55d7fd-m8hjg
+tp-k8s        20h         Normal    Scheduled                           pod/web-6fcbcf6856-28pxr               Successfully assigned tp-k8s/web-6fcbcf6856-28pxr to minikube
+tp-k8s        20h         Normal    Started                             pod/web-6fcbcf6856-28pxr               Container started
+tp-k8s        20h         Normal    Created                             pod/web-6fcbcf6856-28pxr               Container created
+tp-k8s        20h         Normal    Pulled                              pod/web-6fcbcf6856-28pxr               Container image "nginx:alpine" already present on machine and can be accessed by the pod
+tp-k8s        20h         Normal    Scheduled                           pod/web-6fcbcf6856-bq992               Successfully assigned tp-k8s/web-6fcbcf6856-bq992 to minikube
+tp-k8s        20h         Normal    SuccessfulDelete                    replicaset/web-647c55d7fd              Deleted pod: web-647c55d7fd-z5bkm
+tp-k8s        20h         Normal    SuccessfulCreate                    replicaset/web-6fcbcf6856              Created pod: web-6fcbcf6856-bq992
+tp-k8s        20h         Normal    Killing                             pod/web-647c55d7fd-z5bkm               Stopping container nginx
+tp-k8s        20h         Normal    Started                             pod/web-6fcbcf6856-bq992               Container started
+tp-k8s        20h         Normal    Pulled                              pod/web-6fcbcf6856-bq992               Container image "nginx:alpine" already present on machine and can be accessed by the pod
+tp-k8s        20h         Normal    Created                             pod/web-6fcbcf6856-bq992               Container created
+tp-k8s        20h         Normal    SuccessfulDelete                    replicaset/web-647c55d7fd              Deleted pod: web-647c55d7fd-mj6k5
+tp-k8s        20h         Normal    Killing                             pod/web-647c55d7fd-mj6k5               Stopping container nginx
+default       17m         Warning   PossibleMemoryBackedVolumesOnDisk   node/minikube                          The tmpfs noswap option is not supported. Memory-backed volumes (e.g. secrets, emptyDirs, etc.) might be swapped to disk and should no longer be considered secure.
+default       17m         Normal    Starting                            node/minikube                          Starting kubelet.
+default       17m         Normal    NodeHasSufficientMemory             node/minikube                          Node minikube status is now: NodeHasSufficientMemory
+default       17m         Normal    NodeHasNoDiskPressure               node/minikube                          Node minikube status is now: NodeHasNoDiskPressure
+default       17m         Normal    NodeAllocatableEnforced             node/minikube                          Updated Node Allocatable limit across pods
+default       17m         Normal    NodeHasSufficientPID                node/minikube                          Node minikube status is now: NodeHasSufficientPID
+kube-system   17m         Normal    Created                             pod/coredns-559f6c778d-958r6           Container created
+kube-system   17m         Normal    SandboxChanged                      pod/kube-proxy-9jmrt                   Pod sandbox changed, it will be killed and re-created.
+kube-system   16m         Normal    Started                             pod/storage-provisioner                Container started
+kube-system   16m         Normal    Pulled                              pod/storage-provisioner                Container image "gcr.io/k8s-minikube/storage-provisioner:v5" already present on machine and can be accessed by the pod
+kube-system   17m         Normal    SandboxChanged                      pod/storage-provisioner                Pod sandbox changed, it will be killed and re-created.
+kube-system   17m         Normal    Started                             pod/kube-scheduler-minikube            Container started
+kube-system   17m         Normal    Created                             pod/kube-scheduler-minikube            Container created
+kube-system   17m         Normal    Pulled                              pod/kube-scheduler-minikube            Container image "registry.k8s.io/kube-scheduler:v1.37.0" already present on machine and can be accessed by the pod
+kube-system   17m         Normal    SandboxChanged                      pod/kube-scheduler-minikube            Pod sandbox changed, it will be killed and re-created.
+kube-system   17m         Normal    Created                             pod/kube-proxy-9jmrt                   Container created
+kube-system   17m         Normal    Pulled                              pod/kube-proxy-9jmrt                   Container image "registry.k8s.io/kube-proxy:v1.37.0" already present on machine and can be accessed by the pod
+kube-system   17m         Normal    Started                             pod/kube-controller-manager-minikube   Container started
+kube-system   17m         Normal    Created                             pod/kube-controller-manager-minikube   Container created
+tp-k8s        17m         Normal    Pulled                              pod/web-6fcbcf6856-ss746               Container image "nginx:alpine" already present on machine and can be accessed by the pod
+tp-k8s        17m         Normal    SandboxChanged                      pod/web-6fcbcf6856-ss746               Pod sandbox changed, it will be killed and re-created.
+kube-system   17m         Normal    Pulled                              pod/kube-controller-manager-minikube   Container image "registry.k8s.io/kube-controller-manager:v1.37.0" already present on machine and can be accessed by the pod
+kube-system   17m         Normal    SandboxChanged                      pod/kube-controller-manager-minikube   Pod sandbox changed, it will be killed and re-created.
+default       17m         Warning   Rebooted                            node/minikube                          Node minikube has been rebooted, boot id: 3dab2dc8-cdd4-4b9c-9c4c-aa24a9213c7c
+kube-system   17m         Normal    Started                             pod/kube-apiserver-minikube            Container started
+kube-system   17m         Normal    Created                             pod/kube-apiserver-minikube            Container created
+kube-system   17m         Normal    SandboxChanged                      pod/coredns-559f6c778d-958r6           Pod sandbox changed, it will be killed and re-created.
+kube-system   17m         Normal    Pulled                              pod/coredns-559f6c778d-958r6           Container image "registry.k8s.io/coredns/coredns:v1.14.6" already present on machine and can be accessed by the pod
+kube-system   17m         Normal    Pulled                              pod/kube-apiserver-minikube            Container image "registry.k8s.io/kube-apiserver:v1.37.0" already present on machine and can be accessed by the pod
+tp-k8s        17m         Normal    Started                             pod/web-6fcbcf6856-bq992               Container started
+tp-k8s        17m         Normal    Created                             pod/web-6fcbcf6856-bq992               Container created
+tp-k8s        17m         Normal    Pulled                              pod/web-6fcbcf6856-bq992               Container image "nginx:alpine" already present on machine and can be accessed by the pod
+kube-system   16m         Normal    Created                             pod/storage-provisioner                Container created
+tp-k8s        17m         Normal    SandboxChanged                      pod/web-6fcbcf6856-bq992               Pod sandbox changed, it will be killed and re-created.
+kube-system   17m         Normal    SandboxChanged                      pod/kube-apiserver-minikube            Pod sandbox changed, it will be killed and re-created.
+kube-system   17m         Normal    SandboxChanged                      pod/etcd-minikube                      Pod sandbox changed, it will be killed and re-created.
+tp-k8s        17m         Normal    SandboxChanged                      pod/web-6fcbcf6856-28pxr               Pod sandbox changed, it will be killed and re-created.
+tp-k8s        17m         Normal    Pulled                              pod/web-6fcbcf6856-28pxr               Container image "nginx:alpine" already present on machine and can be accessed by the pod
+kube-system   17m         Normal    Created                             pod/kindnet-fhrnn                      Container created
+kube-system   17m         Normal    Pulled                              pod/kindnet-fhrnn                      Container image "docker.io/kindest/kindnetd:v20260820-69b56db7" already present on machine and can be accessed by the pod
+tp-k8s        17m         Normal    Started                             pod/web-6fcbcf6856-bkf5d               Container started
+kube-system   17m         Normal    Pulled                              pod/etcd-minikube                      Container image "registry.k8s.io/etcd:3.7.0-0" already present on machine and can be accessed by the pod
+kube-system   17m         Normal    Created                             pod/etcd-minikube                      Container created
+kube-system   17m         Normal    Started                             pod/etcd-minikube                      Container started
+tp-k8s        17m         Normal    Created                             pod/web-6fcbcf6856-bkf5d               Container created
+kube-system   17m         Normal    SandboxChanged                      pod/kindnet-fhrnn                      Pod sandbox changed, it will be killed and re-created.
+tp-k8s        17m         Normal    SandboxChanged                      pod/web-6fcbcf6856-bkf5d               Pod sandbox changed, it will be killed and re-created.
+tp-k8s        17m         Normal    Pulled                              pod/web-6fcbcf6856-bkf5d               Container image "nginx:alpine" already present on machine and can be accessed by the pod
+kube-system   17m         Normal    Started                             pod/coredns-559f6c778d-958r6           Container started
+tp-k8s        17m         Normal    Started                             pod/web-6fcbcf6856-ss746               Container started
+tp-k8s        17m         Normal    Created                             pod/web-6fcbcf6856-ss746               Container created
+tp-k8s        17m         Normal    Started                             pod/web-6fcbcf6856-28pxr               Container started
+tp-k8s        17m         Normal    Created                             pod/web-6fcbcf6856-28pxr               Container created
+kube-system   17m         Normal    Started                             pod/kindnet-fhrnn                      Container started
+kube-system   17m         Normal    Started                             pod/kube-proxy-9jmrt                   Container started
+default       17m         Normal    Starting                            node/minikube                          
+default       17m         Normal    RegisteredNode                      node/minikube                          Node minikube event: Registered Node minikube in Controller
+kube-system   17m         Warning   Unhealthy                           pod/coredns-559f6c778d-958r6           Readiness probe failed: HTTP probe failed with statuscode: 503
+kube-system   17m         Warning   BackOff                             pod/storage-provisioner                Back-off restarting failed container storage-provisioner in pod storage-provisioner_kube-system(b1b5e9bf-35c3-4665-bc46-bb649f7528f6)
+kube-system   16m         Normal    LeaderElection                      endpoints/k8s.io-minikube-hostpath     minikube_b7deeb6e-5b7d-40e3-bb5e-28f51e44c542 became leader
+tp-k8s        16m         Normal    Killing                             pod/web-6fcbcf6856-bq992               Stopping container nginx
+tp-k8s        16m         Normal    SuccessfulCreate                    replicaset/web-647c55d7fd              Created pod: web-647c55d7fd-cznmn
+tp-k8s        16m         Warning   Unhealthy                           pod/web-6fcbcf6856-bq992               Readiness probe failed: Get "http://10.244.0.2:80/": dial tcp 10.244.0.2:80: connect: connection refused
+tp-k8s        16m         Normal    ScalingReplicaSet                   deployment/web                         Scaled down replica set web-6fcbcf6856 from 4 to 3
+tp-k8s        16m         Normal    Scheduled                           pod/web-647c55d7fd-cznmn               Successfully assigned tp-k8s/web-647c55d7fd-cznmn to minikube
+tp-k8s        16m         Normal    ScalingReplicaSet                   deployment/web                         Scaled up replica set web-647c55d7fd from 1 to 2
+tp-k8s        16m         Normal    SuccessfulDelete                    replicaset/web-6fcbcf6856              Deleted pod: web-6fcbcf6856-bq992
+tp-k8s        16m         Normal    Scheduled                           pod/web-647c55d7fd-r4q77               Successfully assigned tp-k8s/web-647c55d7fd-r4q77 to minikube
+tp-k8s        16m         Normal    ScalingReplicaSet                   deployment/web                         Scaled up replica set web-647c55d7fd from 0 to 1
+tp-k8s        16m         Normal    SuccessfulCreate                    replicaset/web-647c55d7fd              Created pod: web-647c55d7fd-r4q77
+tp-k8s        16m         Normal    Created                             pod/web-647c55d7fd-cznmn               Container created
+tp-k8s        16m         Normal    Pulled                              pod/web-647c55d7fd-cznmn               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        16m         Normal    Started                             pod/web-647c55d7fd-r4q77               Container started
+tp-k8s        16m         Normal    Started                             pod/web-647c55d7fd-cznmn               Container started
+tp-k8s        16m         Normal    Pulled                              pod/web-647c55d7fd-r4q77               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        16m         Normal    Created                             pod/web-647c55d7fd-r4q77               Container created
+tp-k8s        16m         Normal    SuccessfulDelete                    replicaset/web-6fcbcf6856              Deleted pod: web-6fcbcf6856-28pxr
+tp-k8s        16m         Normal    Scheduled                           pod/web-647c55d7fd-pg6bn               Successfully assigned tp-k8s/web-647c55d7fd-pg6bn to minikube
+tp-k8s        16m         Normal    ScalingReplicaSet                   deployment/web                         Scaled down replica set web-6fcbcf6856 from 3 to 2
+tp-k8s        16m         Normal    SuccessfulDelete                    replicaset/web-6fcbcf6856              Deleted pod: web-6fcbcf6856-ss746
+tp-k8s        16m         Normal    SuccessfulCreate                    replicaset/web-647c55d7fd              Created pod: web-647c55d7fd-pg6bn
+tp-k8s        16m         Normal    ScalingReplicaSet                   deployment/web                         Scaled down replica set web-6fcbcf6856 from 2 to 1
+tp-k8s        16m         Normal    ScalingReplicaSet                   deployment/web                         Scaled up replica set web-647c55d7fd from 3 to 4
+tp-k8s        16m         Normal    ScalingReplicaSet                   deployment/web                         Scaled up replica set web-647c55d7fd from 2 to 3
+tp-k8s        16m         Normal    Killing                             pod/web-6fcbcf6856-28pxr               Stopping container nginx
+tp-k8s        16m         Normal    Killing                             pod/web-6fcbcf6856-ss746               Stopping container nginx
+tp-k8s        16m         Normal    Pulled                              pod/web-647c55d7fd-pg6bn               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        16m         Normal    Scheduled                           pod/web-647c55d7fd-vzx6q               Successfully assigned tp-k8s/web-647c55d7fd-vzx6q to minikube
+tp-k8s        16m         Normal    Pulled                              pod/web-647c55d7fd-vzx6q               Container image "nginx:stable-alpine" already present on machine and can be accessed by the pod
+tp-k8s        16m         Normal    Created                             pod/web-647c55d7fd-vzx6q               Container created
+tp-k8s        16m         Normal    Started                             pod/web-647c55d7fd-vzx6q               Container started
+tp-k8s        16m         Normal    Started                             pod/web-647c55d7fd-pg6bn               Container started
+tp-k8s        16m         Normal    Created                             pod/web-647c55d7fd-pg6bn               Container created
+tp-k8s        16m         Normal    SuccessfulCreate                    replicaset/web-647c55d7fd              Created pod: web-647c55d7fd-vzx6q
+tp-k8s        16m         Normal    SuccessfulDelete                    replicaset/web-6fcbcf6856              Deleted pod: web-6fcbcf6856-bkf5d
+tp-k8s        16m         Normal    Killing                             pod/web-6fcbcf6856-bkf5d               Stopping container nginx
+tp-k8s        16m         Normal    ScalingReplicaSet                   deployment/web                         Scaled down replica set web-6fcbcf6856 from 1 to 0

@@ -1,0 +1,9 @@
+NAME                               READY   STATUS    RESTARTS      AGE
+coredns-559f6c778d-958r6           1/1     Running   2 (17m ago)   2d1h
+etcd-minikube                      1/1     Running   2 (17m ago)   2d1h
+kindnet-fhrnn                      1/1     Running   2 (17m ago)   2d1h
+kube-apiserver-minikube            1/1     Running   2 (17m ago)   2d1h
+kube-controller-manager-minikube   1/1     Running   2 (17m ago)   2d1h
+kube-proxy-9jmrt                   1/1     Running   2 (17m ago)   2d1h
+kube-scheduler-minikube            1/1     Running   2 (17m ago)   2d1h
+storage-provisioner                1/1     Running   4 (17m ago)   2d1h
